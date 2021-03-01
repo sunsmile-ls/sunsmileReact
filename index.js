@@ -7,4 +7,6 @@ const element = (
     </div>
 )
 
-console.log(element)
+const dom = document.getElementById("root");
+
+SunsmileReact.render(element, dom)
